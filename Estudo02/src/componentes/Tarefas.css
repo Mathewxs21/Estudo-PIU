@@ -1,0 +1,66 @@
+/* App.css */
+
+
+.divtarefas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as divs se movam para a próxima linha se não houver espaço */
+    justify-content: center; /* Centraliza as divs horizontalmente */
+    gap: 15px;
+}
+
+.tarefaemsi {
+    background-color: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.tarefaemsi:hover {
+    transform: scale(1.02);
+}
+
+.tarefaemsi.pendente {
+    background-color: #ffcccc; /* Vermelho claro para pendente */
+}
+
+.tarefaemsi.concluida {
+    background-color: #ccffcc; /* Verde claro para concluída */
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+
+h3 {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0 15px;
+}
+
+.butoes {
+    display: flex;
+    justify-content: center; /* Centraliza os botões */
+}
+
+button {
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(0, 80, 80);
+}
+
+button:focus {
+    outline: none;
+}
