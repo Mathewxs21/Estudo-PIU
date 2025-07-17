@@ -30,7 +30,7 @@ export default function EffectAPI() {
       <h1>Lista de Usuários</h1>
       <ul>
         {usuarios.map(usuario => (
-          <li key={usuario.id}>{usuario.name}</li>
+          <li key={usuario.id}>{usuario.name} -- {usuario.username} -- {usuario.email}</li>
         ))}
       </ul>
     </div>

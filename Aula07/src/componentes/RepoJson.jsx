@@ -30,7 +30,7 @@ export default function RepoJson() {
       <h1>Lista de Usuários</h1>
       <ul>
         {dados.map(dado => (
-          <li key={dado.id}>{dado.title}</li>
+          <li key={dado.id}>{dado.id} -- {dado.title}</li>
         ))}
       </ul>
     </div>

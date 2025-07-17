@@ -14,7 +14,7 @@ export default function CountClicks() {
 
   useEffect(() => {
     handleColor()
-  },)
+  }, [{count}])
 
   return (
     <>
