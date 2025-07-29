@@ -1,0 +1,70 @@
+/* EffectAPI.css - Versão SIMPLES */
+
+.container {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  /* Estilo base das tabelas */
+  .div1, .div2, .div3 {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Tabela 1 - Azul */
+  .div1 {
+    background: #f0f8ff;
+  }
+  .div1 .titulo {
+    color: #4682b4;
+    margin-bottom: 10px;
+  }
+  
+  /* Tabela 2 - Verde */
+  .div2 {
+    background: #f0fff0;
+  }
+  .div2 .titulo {
+    color: #2e8b57;
+    margin-bottom: 10px;
+  }
+  
+  /* Tabela 3 - Vermelho */
+  .div3 {
+    background: #fff0f0;
+  }
+  .div3 .titulo {
+    color: #cd5c5c;
+    margin-bottom: 10px;
+  }
+  
+  /* Listas */
+  .ulista {
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .lilista {
+    padding: 5px 0;
+    list-style-type: circle;
+  }
+  
+  /* Botão básico */
+  .button {
+    width: 100%;
+    padding: 8px;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Mobile */
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+  }
