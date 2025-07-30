@@ -4,6 +4,7 @@ import Input from './componentes/Input'
 import Login from './componentes/Login'
 import OnChange from './componentes/OnChange'
 import ListaPosts from './componentes/ListaPosts'
+import Input2 from './componentes/Input2'
 import './App.css'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <div>
-        <ListaPosts/>
+        <Input2/>
       </div>
     </>
   )
